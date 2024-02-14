@@ -1,0 +1,18 @@
+class length:
+    l=0
+    def length(self):
+        return self.l
+class breadth:
+    b=0
+    def breadth(self):
+        return self.b
+class rect_area(length,breadth):
+    def area(self):
+        result=self.l*self.b
+        print("Area of rectangle:",result)
+
+obj=rect_area()
+obj.l=int(input("Enter length:"))
+obj.b=int(input("Enter breadth:"))
+obj.area()
+    
