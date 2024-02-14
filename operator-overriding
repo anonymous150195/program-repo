@@ -1,0 +1,13 @@
+class Employee:
+    def display(self):
+        print("Employee details")
+class Manager(Employee):
+    def display(self):
+        name=str(input("Enter the employee name:"))
+        mobile=int(input("Enter the mobile number:"))
+        salary=int(input("Enter salary details:"))
+        designation=str(input("Enter the employee designation:"))
+obj=Employee()
+obj.display()
+obj1=Manager()
+obj1.display()
