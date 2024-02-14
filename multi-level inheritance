@@ -1,0 +1,15 @@
+class Employee:
+    def getdata(self):
+        name="Iniya"
+class Manager(Employee):
+    def managerdata(self):
+        address="Dindigul"
+        print(Address)
+class Salary(Manager):
+    def salarydetails(self):
+        salary=1000000
+        print(salary)
+obj=salary()
+obj.getdata()
+obj.managerdata()
+obj.salarydetails()
