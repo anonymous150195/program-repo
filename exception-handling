@@ -7,6 +7,7 @@ except ZeroDivisionError:
     print("Zero Division Error")
 finally:
     print("Finally block")
+
 a=['c','c++']
 try:
     for i in range(0,4):
