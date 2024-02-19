@@ -1,0 +1,75 @@
+Eligible to  vote
+
+n=int(input("Enter the age to check the eligibility to vote or not:"))
+if (n<18)
+   print("Eligible to vote")
+ else
+   print ("Not eligible to vote")
+
+   average of an array
+
+   i=0,s=0
+   n=int(input("Enter the array element to find the average:"))
+   for i in range[n]
+   i=i+1;
+   s=x[i]+x[i+1]
+   a=s/x[n]
+   print("Average of an array:",a)
+
+
+   ARRAY REVERSE
+
+   i=int(input("Enter the array length:"))
+   x[i]=input("Enter the string to reverse:"))
+   y[i]=strrev(x[i])
+   print("Reversed string:"y[i])
+
+   FACTORIAL OF A NUMBER
+
+   n=int(input("Enter the number:"))
+   for i in range[n]
+    f=f*i
+    i=i+1
+    print ("Factorial:",f)
+
+
+    BIGGEST OF 5 NUMBER
+
+    i=1,t=0
+    for i in range[5]
+    x=int(input("Enter the number to check:"))
+    if (x > t)
+      t=x;
+      print(" biggest number:",t)
+
+      EMPLOYEE DETAILS
+
+      n[20]=input("Enter Employee name:")
+      a=int(input("Enter Employee age:"))
+      j=input("Enter Employee Job:")
+      c=strlen[n]
+      if c>20
+        print "Error message! Name limit Exceeds"
+        elif 
+           print "Employee Name:",n
+           elif
+              a > 60
+                print "Error message ! age exceeds"
+                elif
+                   print "Employee Age:",a
+                   elif
+                      j=='Fresher' || 'Team member'||'Team leader'||'Manager'
+                        print "Employee job:",j
+                        elif
+                           print "Error message"
+                             elif
+                                j=="Fresher"
+                                  print "salary=20000'
+                                  elif 
+                                    j=="Team member"
+                                      print "Salary=30000"
+                                       elif 
+                                        j==:Team leader"
+                                          print "Salary=40000"
+                                           elif 
+                                             print "Salary=50000'
